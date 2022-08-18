@@ -1,0 +1,19 @@
+# [Affordance-based Reinforcement Learning for Urban Driving](https://arxiv.org/pdf/2101.05970.pdf)
+
+tl;dr: The paper provides low-dimensional visual affordance as input to the policy network to learn optimal planning & control policy in urban driving task. 
+
+#### Overall impression
+Compared with high-dimensional visual data, the simplified affordance state is easier to interpret and to learn optimal driving policy.
+Affordance is a human-distilled concepts that can reflect the intrinsic properties of driving tasks. Overall, interesting direction!
+
+#### Key ideas
+- By dividing the urban driving task into the affordance prediction,
+and planning and control blocks, the difficulty of the latter block is reduced which can learn the
+optimal control policy based on low-dimensional affordances.
+	- Affordance, such as distance to the vehicle ahead, distance to the nearest stop sign, or nearest traffic light state can be learned from high-dimensional visual data. 
+
+#### Technical details
+- The paper assumes an external affordance learning system that produces affordance information.
+- The paper also discusses redundant feature (affordance + visual data), which turns out to converge much slower (takes 2 X time).
+
+#### Notes
