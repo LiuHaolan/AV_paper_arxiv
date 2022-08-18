@@ -4,7 +4,14 @@ tl;dr: The paper provides low-dimensional visual affordance as input to the poli
 
 #### Overall impression
 Compared with high-dimensional visual data, the simplified affordance state is easier to interpret and to learn optimal driving policy.
-Affordance is a human-distilled concepts that can reflect the intrinsic properties of driving tasks. Overall, interesting direction!
+Affordance is a human-distilled concepts that can reflect the intrinsic properties of driving tasks. 
+
+For the complex task like autonomous driving, some research aims at decomposing the task into subtasks, which is more 
+manageable to solve and provides interpretable result. E.g., the Target-driven Trajectory Prediction (TNT) predicts a 
+future trajectory (the complex task) conditioned on the goal (subtask), which decomposes the task into 1, goal prediction and 
+2, trajectory completion.
+
+Overall, interesting direction!
 
 #### Key ideas
 - By dividing the urban driving task into the affordance prediction,
