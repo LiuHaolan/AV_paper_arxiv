@@ -1,0 +1,16 @@
+## [Adversarial Motion Priors Make Good Substitutes for Complex Reward Functions]([https://arxiv.org/pdf/2203.15103.pdf))
+
+
+#### Overall impression
+RL in real-world application often relies on underspecified reward function. By underspecified, we mean that the reward function fails to
+specify the physical feasibility requirements. Therefore, such RL agents cannot transfer to real-world deployment. In this paper, it uses the 
+adversarial motion prior, which uses GAN to capture the state transition probability distribution from real-world motion datasets.
+
+
+#### Key ideas
+- style reward: by adding reward to state transition, we can encourage RL agents to take similar actions as in motion datasets.
+
+
+#### Technical details
+
+#### Notes
