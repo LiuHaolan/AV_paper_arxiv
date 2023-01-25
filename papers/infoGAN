@@ -1,0 +1,9 @@
+# [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](https://arxiv.org/pdf/1606.03657.pdf)
+
+tl;dr: GAIL tries to learn the distribution of the expert's occupancy measure, using a GAN-style training method.
+
+#### Overall impression
+ - Disentanglement: a disentangled representation allocates a separate set of dimensions for some salient attributes of the data. Disentanglement helps
+the relevant downstream prediction tasks
+ - 
+
